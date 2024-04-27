@@ -1,0 +1,181 @@
+/* start navbar  */
+.bg-body-tertiary {
+    background-color: #eee !important;
+}
+
+.bg-body-tertiary .container-fluid img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-collapse ul {
+    padding-left: 100px;
+}
+
+.navbar-collapse ul li {
+    padding-left: 200px;
+}
+
+.navbar-collapse ul li a {
+    color: violet;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* end navbar  */
+/* start carousel  */
+.carousel-inner {
+    height: 91vh;
+}
+
+#medo {
+    margin-top: -120px;
+}
+
+#med {
+    margin-top: -90px;
+}
+@media(max-width:767px){
+    #medo {
+        margin-top: 180px;
+    } 
+}
+@media(max-width:992px){
+    #medo {
+        margin-top: 85px;
+    } 
+}
+@media(max-width:1200px){
+    #medo {
+        margin-top: 0px;
+    } 
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+    color: violet;
+}
+/* end carousel  */
+/* start section  */
+.g-4 {
+    background-color: #eee;
+    padding: 50px;
+}
+
+.g-4 .col {
+    margin-top: 50px;
+}
+
+.g-4 .col .card {
+    background-color: transparent;
+    border: none;
+}
+
+.g-4 .col .card img {
+    border-radius: 100px;
+}
+
+.g-4 .col .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* end team-section  */
+/* start footer  */
+.footer {
+    background-color: #343a40;
+}
+
+.footer .cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+@media(max-width:767px){
+    .footer .cards{
+        flex-direction: column;
+    }
+}
+@media(max-width:768px){
+    .footer .cards{
+        flex-direction: column;
+    }
+}
+@media(min-width:992px){
+    .footer .cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 80px;
+    }
+
+}
+@media(min-width:1200px){
+    .footer .cards{
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+}
+.footer .cards .car h1 {
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer .cards .car ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.footer .cards .car ul li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: .2s;
+    line-height: 2;
+    margin-top: 5px;
+}
+
+.footer .cards .car ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .cards .car ul li:hover {
+    transform: scale(1.2)
+}
+
+.footer .cards .car i {
+    color: gray;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    transition-duration: .2s;
+}
+
+.footer .cards .car i:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+/* end footer  */
+/* test carousel  */
+/* .slids{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.slids #image1{
+    width:1400px;
+    display: flex;
+    overflow-x: scroll;
+}
+.slids #image1::-webkit-scrollbar{
+    overflow: hidden;
+}
+.slids .image2{
+    width: 1400px;
+}
+.slids .image2 img{
+    width: 1400px;
+} */

@@ -1,0 +1,94 @@
+body{
+    background: linear-gradient(180deg , #651c71 , #03a9f4);
+}
+.contaienr{
+    margin: 30px auto;
+    width: 600px;
+    background-color: rgb(16 17 23 / 20%);
+    padding: 10px;
+}
+.contaienr h1{
+    color: white;
+}
+/* start form  */
+.contaienr .forms{
+    display: grid;
+    grid-template-columns: repeat(2 , auto);
+    gap: 20px;
+    color: white;
+} 
+@media(max-width:767px){
+    .contaienr .forms{
+        grid-template-columns: repeat(1 , auto);
+        gap: 20px;
+        width: 450px;
+    }
+    .contaienr p{
+        width: 450px;
+    }
+    .contaienr .button{
+        width: 450px;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+.contaienr .forms .form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.contaienr .forms .form label{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contaienr .forms .form input{
+    padding: 10px;
+
+}
+/* end form  */
+/* start gender  */
+.contaienr .gender{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.contaienr .gender form{
+    display: flex;
+
+
+}
+.contaienr .gender input,label{
+    font-weight: 400;
+    font-size: 15px;
+}
+/* end gender  */
+/* start paragraph  */
+.contaienr p{
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.contaienr p span{
+    color: #03a9f4;
+    cursor: pointer;
+}
+/* end paragraph  */
+.contaienr .button{
+    border: none;
+    background-color: #651c71;
+    width: 500px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
